@@ -26,7 +26,7 @@ namespace assignment6
             Console.WriteLine($"Deposit successful.");
         }
 
-        public void LogTransaction(string message) 
+        private void LogTransaction(string message) 
         {
             Console.WriteLine($"Transaction: {message}");
         }

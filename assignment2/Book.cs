@@ -10,8 +10,8 @@ namespace assignment2
     {
  
 
-        public string Title { get; }
-        public string Author { get; }
+        public string Title { get; set; }
+        public string Author { get; set; }
         public Book(string title, string author)
         {
             Title = title;

@@ -15,19 +15,18 @@ namespace assignment4
             _radius = radius;
         }
 
-        public double area 
+        public double Area 
         { 
             get
             {
-                const double pie = 3.14;
-                return _radius * _radius * pie;
+                return _radius * _radius * Math.PI;
             }
         }
 
         public void DisplayInfo()
         {
             Console.WriteLine($"Radius: {_radius}");
-            Console.WriteLine($"Area: {area:F2}");
+            Console.WriteLine($"Area: {Area:F2}");
         }
     }
 }
