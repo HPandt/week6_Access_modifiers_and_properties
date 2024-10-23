@@ -9,6 +9,7 @@ namespace assignment6
     internal class Account
     {
         private string _accountholder;
+        // this is a backing field to the public one
         private double _amount;
         
 
